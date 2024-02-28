@@ -57,12 +57,12 @@ let lovesToCode = true;
 
 // TASK 3 //
 
-function fullName(firstName, lastName) {
+function createFullName(firstName, lastName) {
     let fullName = firstName + " " + lastName;
     return fullName;
 }
 
-let fullName(Kimber, Mendoza)
+let myFullName = createFullName(firstName, lastName);
 
 
 
@@ -70,8 +70,8 @@ let fullName(Kimber, Mendoza)
 
 let book = {
     title: "Ready Player One",
-    director: "Stephen Spielberg",
-    publishedYear: 2018
+    director: "Earnest Cline",
+    publishedYear: 2011
 }
 
 let movie = {
@@ -93,8 +93,8 @@ let student = {
 // TASK 5  //
 
 function findBiggestNumber(num1, num2) {
-    findBiggestNumber = Math.max(num1, num2);
-    return findBiggestNumber;
+    let biggestNumber = Math.max(num1, num2);
+    return biggestNumber;
 }
 
 function checkStringsLength(str, maxLength) {
@@ -104,4 +104,4 @@ function checkStringsLength(str, maxLength) {
        return "Within Limit";
     }
 }
-console.log(checkStringsLength("Kimber", 4))
+// console.log(checkStringsLength("Kimber", 4))
