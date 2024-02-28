@@ -6,15 +6,15 @@
     -- string, boolean, number, null, undefined, 
 
 - What are the Reference(Complex) data types we discussed in class?
-    -- object, array, 
+    -- object, array, function
 
 - What is the Spread Operator?
-    --  ( ...) expands an iterable (like an array) into more elements.
+    --  ( ...) expands an repeatable (like an array or objects) into more elements.
 
 - Research the Math object in Javascript and tell me three of the methods you find and their use.
-    -- Math.SQRT2    // returns the square root of 2
-    -- Math.round(x)	Returns x rounded to its nearest integer
-    -- Math.sign(x) returns if x is negative, null or positive
+    -- Math.SQRT2(x) // returns the square root of 2
+    -- Math.round(x) // Returns x rounded to its nearest integer
+    -- Math.sign(x) // returns if x is negative, null or positive
 
 - Research the Array Methods in Javascript and tell me three of the methods you find and their use.
     --  pop() method removes the last element from an array
@@ -58,9 +58,11 @@ let lovesToCode = true;
 // TASK 3 //
 
 function fullName(firstName, lastName) {
-    fullName = firstName + " " + lastName;
+    let fullName = firstName + " " + lastName;
     return fullName;
 }
+
+let fullName(Kimber, Mendoza)
 
 
 
